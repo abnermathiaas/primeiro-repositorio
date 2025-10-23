@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: aliceblue;
+}
+main{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+nav{
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+a:hover{
+    color: rgba(48, 48, 48, 0.808);
+}
+p.preco{
+    color: rgb(72, 141, 2);
+    margin: 5px;
+}
+div.produto{
+    width: 220px;
+    width: 220px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 3px black;
+    margin-right: 20px;
+    align-items: center;
+}
+div.img{
+    background-size: 100%;
+    border-radius: 10px;
+}
+div.produto:hover{
+    transform: scale(1.1);
+    transition: transform 0.3 ease;
+}
+p#rodape{
+    background-color: #fff;
+    padding: 1px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+img.logo{
+    width: 70px;
+    height: auto;
+}
+div.logo{
+    flex-direction: start;
+    width: 30px;
+}
+h2.pg2{
+    text-align: center;
+}
+p.pg2{
+    text-align: center;
+}
+div.container{
+    width: 300px;
+    font-family: sans-serif;
+    padding: 40px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+label.logincad{
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+button.logincad{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease,transform 0.2s ease;
+}
+button.logincad:hover{
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+input[type="text"],input[type="password"],input[type="email"]{
+     width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+h1.logincad{
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+div.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.banner img{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+.mensagem{
+    text-align: center;
+}
+
+.mensagem h1{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mensagem p{
+    font-size: 20px;
+    color: #555;
+}
+a.cadlog{
+    color: #007bff;
+    margin-left: 1px;
+}
+a.cadlog:hover{
+    color: #1c5980;
+    text-decoration: underline;
+}
+p.login{
+    white-space: nowrap;
+    margin-right: 1px
+}
+div.contato{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+h2.contato2{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+a.rick{
+    color: #007bff;
+}
+a.rick:hover{
+  color: #1c5980;
+  text-decoration: underline;
+}
+p.contato3{
+  margin: 8px;
+  font-size: 19,2px;
+  text-align: center;
+}
